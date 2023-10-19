@@ -1,15 +1,16 @@
 <x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
-
-    <div class="py-12">
+    <section>
+        <div class="woodycraft">
+            <a href="acceuil.html"><p>WoodyCraft</p></a>
+            <a href="acceuil.html"><img class="logo" src="image/logo.png" alt="logo"></a>
+            <a href="acceuil.html"></a><p>Accéder à nos Puzzle</p></div></a>
+        </div>
+    </section>
+        <!--<div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
-                    {{ __("You're logged in!") }}
+                    {{ __("Vous êtes connectée !") }}
                 </div>
             </div>
         </div>

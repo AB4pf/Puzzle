@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1em;
+    font-weight: 400;
+    background-color: #654B38;
+}
+header{
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+}
+
+.woodycraft{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.woodycraft p{
+    font-size: 30px;
+}
+.logo{
+    width : 110px;
+    height : 110px;
+}
+
+
+.menu{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    background-color: #654B38;
+}
+.menu-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 485px;
+}
+.menu-top p{
+    font-size: 35px;
+}
+.menu-top a img{
+    width: 100px;
+}
+.menu-bottom img{
+    width : 35px;
+    height : 22px;
+}
+.bandeau{
+    width: 100vw;
+    height: 5vh;
+    padding-left: 70px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4B3729;
+}
+.ctg{
+    display: flex;
+    gap: 20px;
+}
+
+.all_section{
+    margin-top: 14vh;
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+}
+.article_titre{
+    background-color: #4B3729;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+.all_article{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+
+}
+.article img{
+    width: 192px;
+    height: 150px;
+}
+.art a{
+    color: black;
+}
+.art p{
+    color: black;
+}
+.art{
+    display: flex;
+    justify-content: space-between;
+}
+.but {
+    width: 192px;
+    background-color: #4B3729;
+    width: 192px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 4px;
+}
+
